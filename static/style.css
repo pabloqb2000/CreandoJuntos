@@ -92,13 +92,13 @@ a.btn:hover, input:hover {
   background-color: var(--main-color-light) !important;
 }
 
-a.btn:focus,
-a.btn:active{
+a.btn:focus, button:focus,
+a.btn:active, button:active {
   box-shadow: none !important;
   outline: 3px solid var(--main-color-transparent) !important;
 }
 
-a.btn:focus:hover,
+a.btn:focus:hover, button:focus:hover, button:active:hover,
 a.btn:active:hover{
   box-shadow: none !important;
   outline: 3px solid var(--main-color-light-transparent) !important;
