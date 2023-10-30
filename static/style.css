@@ -41,6 +41,9 @@ h1 {
 h2 {
   font-size: 3rem;
 }
+.text-size-small {
+  font-size: 0.75rem;
+}
 
 h1.main-title {
   font-size: 5.5em;
